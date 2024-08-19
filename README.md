@@ -5,6 +5,7 @@
 
 # Supported tags and respective Dockerfile links
 
+* [1.13-alpine-3.18](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.12-alpine-3.14](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.11-alpine-3.12](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.10-alpine-3.10](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
@@ -22,10 +23,10 @@ Its interface is generic, but was originally designed for reducing the latency o
 # How to use this image
 
 ```
-docker run --name beanstalkd websmurf/beanstalkd:1.11-alpine-3.12
+docker run --name beanstalkd websmurf/beanstalkd:1.13-alpine-3.18
 ````
 
 ## Exposing ports
 ```
-docker run --name beanstalkd -p 11300:11300 websmurf/beanstalkd:1.11-alpine-3.12
+docker run --name beanstalkd -p 11300:11300 websmurf/beanstalkd:1.13-alpine-3.18
 ```
