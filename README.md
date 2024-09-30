@@ -24,10 +24,10 @@ Its interface is generic, but was originally designed for reducing the latency o
 # How to use this image
 
 ```
-docker run --name beanstalkd websmurf/beanstalkd:1.13-alpine-3.18
+docker run --name beanstalkd websmurf/beanstalkd:1.13-alpine-3.20
 ````
 
 ## Exposing ports
 ```
-docker run --name beanstalkd -p 11300:11300 websmurf/beanstalkd:1.13-alpine-3.18
+docker run --name beanstalkd -p 11300:11300 websmurf/beanstalkd:1.13-alpine-3.20
 ```
