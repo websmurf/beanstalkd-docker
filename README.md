@@ -5,6 +5,7 @@
 
 # Supported tags and respective Dockerfile links
 
+* [1.13-alpine-3.21](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.13-alpine-3.20](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.13-alpine-3.18](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
 * [1.12-alpine-3.14](https://github.com/websmurf/beanstalkd-docker/blob/main/Dockerfile)
